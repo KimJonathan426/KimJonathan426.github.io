@@ -12,7 +12,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   color: #707172;
-  background-color: #666;
+  background-color: rgb(34, 32, 32);
 }
 
 p {
@@ -45,7 +45,7 @@ a {
 }
 
 .tm-bg-white-transparent {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid white;
 }
 
@@ -236,6 +236,7 @@ a {
 }
 
 .tm-section-half {
+  overflow: hidden;
   padding: 55px;
 }
 
@@ -305,7 +306,7 @@ a {
   opacity: 1;
 }
 
-/* 
+/*
   Gallery Item Hover Effect
   https://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects/
 */
@@ -485,8 +486,9 @@ figure.effect-bubba:hover p {
   padding: 10px;
 }
 
-.tm-img-wrap a {
+.tm-img-wrap div {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   border: 1px solid #ccc;
@@ -564,7 +566,7 @@ figure.effect-bubba:hover p {
     width: 70%;
   }
 
-  .tm-img-wrap a {
+  .tm-img-wrap div {
     width: 100%;
     height: 100%;
   }
