@@ -290,6 +290,7 @@ a {
 .tm-gallery-item {
   padding-left: 10px;
   padding-right: 10px;
+  margin-bottom: 20px;
 }
 
 .slick-dots {
@@ -472,6 +473,8 @@ figure.effect-bubba:hover p {
 
 .tm-clients-images {
   max-width: 1040px;
+  display: flex;
+  justify-content: center;
 }
 
 .tm-w-80 {
@@ -663,6 +666,18 @@ figure.effect-bubba:hover p {
 @media (max-width: 554px) {
   .tm-section {
     padding: 15px;
+  }
+
+  .tm-gallery-item figure img {
+    min-height: 180px;
+  }
+
+  .tm-project-images {
+    font-size: 10px;
+  }
+
+  .tm-gallery-item figure figcaption {
+    padding: 16px;
   }
 }
 
